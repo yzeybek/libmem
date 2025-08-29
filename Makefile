@@ -4,7 +4,7 @@ AR = ar rcs
 MKDIR = mkdir -p
 
 IFLAGS = -I. -I ./incs
-CFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra -fPIE
 
 VPATH = srcs
 SRCS = mem_utils.c mem_alloc.c mem_clean.c
